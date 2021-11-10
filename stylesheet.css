@@ -1,0 +1,202 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-container {
+  width: 1170px;
+  margin: auto;
+
+}
+
+.header-img {
+  width: 124px;
+  float: left;
+  padding-top: 20px;
+}
+
+.header-login {
+  background-color: rgba(255, 255, 255, 0.3);
+  float: right;
+  color: white;
+  padding: 20px 25px;
+}
+
+.header-login:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-wrap {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  padding: 180px 0 100px;
+  text-align: center;
+  color: white;
+}
+
+.top-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrap h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrap p{
+  opacity: 0.7;
+  margin-bottom: 35px;
+}
+
+.btn {
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  padding: 8px 24px;
+  margin: 10px 5px 0 5px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.btn-container p {
+  margin: 25px 0 25px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.learn-wrap {
+  background-color: #f7f7f7;
+  height: 580px;
+}
+
+.learn-container {
+  width: 1170px;
+  margin: auto;
+  text-align: center;
+}
+
+.learn-mess {
+  font-weight: normal;
+  color: #5f5d60;
+  padding: 80px 0 50px 0;
+}
+
+.learn-item {
+  float: left;
+  width: 25%;
+}
+
+.learn-logo {
+  position: relative;
+}
+
+.learn-logo p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.learn-text{
+  color: #b3aeb5;
+  font-size: 13px;
+  margin-top: 15px;
+  width: 80%;
+  display: inline-block;
+}
+
+.message-wrap {
+  border-bottom: 1px solid #eee;
+}
+
+.message-container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 100px;
+  
+}
+
+.message-container h2 {
+  font-weight: normal;
+  color: #5f5d60;
+  margin-top: 80px;
+  
+}
+
+.message-container h3 {
+  color: #5f5d60;
+  margin-bottom: 50px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  color: white;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative; top : 7px;
+}
+
+.footer-container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-logo {
+  margin-top: 30px;
+  width: 124px;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #b3aeb5;
+  margin-bottom: 30px;
+}
